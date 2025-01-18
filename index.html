@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon</title>
     <style>
-        body {
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            margin: 0;
-            background: #f5f5f5;
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light background */
+            color: #333; /* Text color */
+            font-size: 2em; /* Text size */
+        }
+        .coming-soon {
             text-align: center;
-        }
-        h1 {
-            font-size: 3rem;
-            margin: 0 0 20px; /* Add some spacing below the heading */
-        }
-        img {
-            max-width: 50%; /* Adjust the size of the image */
-            height: 50%;
         }
     </style>
 </head>
 <body>
-    <h1>Coming Soon</h1>
-    <img src="coming-soon.jpg" alt="Coming Soon Image">
+    <div class="coming-soon">
+        Coming Soon...
+    </div>
 </body>
 </html>
