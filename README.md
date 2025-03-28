@@ -20,7 +20,7 @@ I’m Rahul, a passionate **Web Developer** and **Computer Science student** wit
 Here are some of the tools and technologies I use:
 
 - **Frontend:** HTML, CSS, JavaScript, React.js, Next.js
-- **Backend:** Node.js, Express.js, Django, Django Rest Framework
+- **Backend:** Node.js, Express.js, Django, Django Rest Framework, Next.js
 - **Databases:** MongoDB, PostgreSql
 - **DevOps:** Docker, CI/CD, Kubernetes
 - **Other Tools:** Git, GitHub, IntelliJ IDEA  
